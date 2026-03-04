@@ -1,9 +1,9 @@
 # InfraPilotLabs
 
-**LLM Training Data Services**
+**Data Cleaning & Processing Services**
 
-We clean, format and validate datasets for LLM fine-tuning.  
-Raw data in → clean `train.jsonl` out. Every job includes a quality report.
+We clean, format and process data for any purpose — from business spreadsheets to LLM training datasets.  
+Any format in → clean data out. Every job includes a quality report.
 
 ---
 
@@ -11,12 +11,12 @@ Raw data in → clean `train.jsonl` out. Every job includes a quality report.
 
 | Service | Details |
 |---|---|
-| Format Conversion | CSV / JSON / PDF → Alpaca, ShareGPT, ChatML JSONL |
-| Deep Cleaning | HTML removal, deduplication, encoding fixes, length filtering |
-| PII Anonymization | Patient names, emails, phone numbers, SSNs detected and removed |
-| Multilingual Data | Tamil · Hindi · French — Tamil outputs natively verified |
-| Dataset Audit | Quality report on your existing dataset before you train |
-| PDF → Dataset | Extract text, generate Q&A pairs, format for fine-tuning |
+| CSV & Excel Cleaning | Duplicates, nulls, formatting issues, wrong data types — full clean delivered |
+| PDF Data Extraction | Tables and text extracted from PDFs into clean CSV or Excel |
+| Format Conversion | Any format to any format — JSON, XML, CSV, Excel, JSONL |
+| LLM Training Data | Alpaca, ShareGPT, ChatML JSONL — cleaned, validated, train/val split |
+| PII Anonymization | Names, emails, phones, SSNs detected and removed from sensitive datasets |
+| Dataset Audit | Free quality report on your existing data — no charge, no obligation |
 
 ---
 
@@ -41,7 +41,7 @@ No login. No data storage. No AI. Fully deterministic. Free.
 
 ## Framework Compatibility
 
-Every dataset we deliver works out of the box with:
+LLM training datasets we deliver work out of the box with:
 
 ```
 Axolotl · LLaMA Factory · Unsloth · HuggingFace TRL
@@ -54,4 +54,4 @@ Axolotl · LLaMA Factory · Unsloth · HuggingFace TRL
 **Email:** contact@infrapilotlabs.com  
 **Website:** [infrapilotlabs.github.io](https://infrapilotlabs.github.io)
 
-Custom quote based on your data size and complexity. Reply within 24 hours.
+Send us your file and what you need. We respond within 24 hours with a custom quote.
